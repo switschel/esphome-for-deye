@@ -1,6 +1,10 @@
 # ESPhome for deye
-ESPhome configuration for monitoring and control of Deye inverters in Home Assistant.
-This include all addresses i could see relevant from the inverter.
+
+This ESP config extends the config from https://github.com/klatremis/esphome-for-deye by adding daily metrics
+and other useful values like Battery Operation, Inverte On/Off to send the inverter to standby ("No Battery") when not needed.
+
+> **Caution**: Be careful when adding additional entities. This could cause Out of Memory Bootloops. Remove other not needed entities before adding addtional
+
 ![image](https://user-images.githubusercontent.com/22115157/211201343-1d54cada-4b2c-40b0-88c4-faf31e17fead.png)
 
 ## Supported devices
